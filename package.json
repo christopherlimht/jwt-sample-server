@@ -1,0 +1,30 @@
+{
+  "name": "jwt_server",
+  "version": "1.0.0",
+  "description": "Sample JWT server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --ignore /db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lowdb": "^1.0.0"
+  },
+  "apidoc":{
+    "name": "example",
+    "version": "0.1.0",
+    "description": "apiDoc basic example",
+    "apidoc": {
+      "title": "Custom apiDoc browser title",
+      "url" : "https://api.github.com/v1"
+    }
+  }
+}
