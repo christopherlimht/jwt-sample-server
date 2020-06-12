@@ -1,4 +1,4 @@
-# JWT Server
+# JWT API Server
 This project is a sample JWT API server implemented by me using NodeJS, ExpressJS and the JWT library provided by JWT.io. Methods to generate and verify JWT tokens and a simple login system are exposed through the API. The simple login system serves as a short demo of the implementation of a basic login system using JWT. It is not meant to be used in production and is purely used for testing, learning and tinkering purposes.
 
 ## Framework used
